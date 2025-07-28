@@ -1,6 +1,7 @@
 body{
     max-width: 1400px;
-    margin: 4%;
+    margin: 0% 4% 0% 4%;
+    overflow-x: hidden;
 }
 
 .hero-title{
@@ -33,3 +34,118 @@ body{
     line-height: normal;
     letter-spacing: -2.24px;
 }
+
+.b1{
+    color: #12141D;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 127.778% */
+}
+
+.b2{
+    color: #12141D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.primary-button{
+    display: flex;
+    padding: 16px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFC947;
+    border: none;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.primary-button:hover {
+    background: #ffffff20;
+    border: #FFF 1px solid;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.primary-button-text{
+    color: #12141D;
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.secondary-button{
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.70);
+    display: flex;
+    padding: 16px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.secondary-button:hover {
+    background: rgba(255,255,255,0.15);
+    border-color: #FFF;
+}
+
+.secondary-button-text{
+    color: #000000;
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0px;
+    height: 100%;
+    align-self: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.hero-image{
+    position: absolute;
+    translate: -6% -20%;
+    height: 110vh;
+    object-fit: fill;
+    width: 105%;
+    z-index: -09;
+}
+
