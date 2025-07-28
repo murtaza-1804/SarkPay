@@ -1,0 +1,35 @@
+body{
+    max-width: 1400px;
+    margin: 4%;
+}
+
+.hero-title{
+    color: #FFF;
+    font-family: "Lexend Exa";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -5.4px;
+}
+
+.h1{
+    color: #12141D;
+    text-align: center;
+    font-family: "Lexend Exa";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -4.32px;
+}
+
+.h3{
+    color: #12141D;
+    font-family: "Lexend Exa";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
