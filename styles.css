@@ -215,6 +215,7 @@ h3{
     align-self: center;
     justify-content: center;
     padding-bottom: 250px;
+    position: relative;
 }
 
 .feature-text{
