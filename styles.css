@@ -4,6 +4,9 @@ body{
     overflow-x: hidden;
 }
 
+span{
+    color: #0E242C;;
+}
 .hero-title{
     color: #FFF;
     font-family: "Lexend Exa";
@@ -133,6 +136,7 @@ h3{
     gap: 45px;
     width: 100%;
     height: 100vh;
+    padding-bottom: 150px;
 }
 
 .hero-image{
@@ -200,4 +204,67 @@ h3{
     opacity: 0.6;
     font-weight: 300;
     font-size: 16px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+    margin: auto;
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 250px;
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0% 15%;
+
+}
+.features-card{
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    align-content: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.feature-card-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 4px 60px 0 rgba(0, 0, 0, 0.08);
+    padding: 24px 20px 20px 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.feature-img{
+    width: 64px;
+    height: 64px;
+    padding-bottom: 24px;
+    align-self: center;
+    margin: 0%;
+}
+
+.feature-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.features-bg{
+    position: absolute;
+    z-index: -2;
+    translate: -20% 3%;
+    width: 120%;
+    height: 1fr;
 }
