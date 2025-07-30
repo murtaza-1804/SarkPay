@@ -38,7 +38,7 @@ h3{
     letter-spacing: -2.24px;
 }
 
-b1{
+.b1{
     margin: 0% 0% 0% 0%;
     color: #12141D;
     font-family: Inter;
@@ -48,7 +48,7 @@ b1{
     line-height: 23px; /* 127.778% */
 }
 
-b2{
+.b2{
     margin: 0% 0% 0% 0%;
     color: #12141D;
     font-family: Inter;
