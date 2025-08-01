@@ -63,10 +63,12 @@ h3{
 
 
 .navbar{
+
     margin: 20px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     align-content: center;
+    align-self: center;
     justify-content: space-between;
     width: 100%;
 }
@@ -211,10 +213,10 @@ h3{
     flex-direction: column;
     gap: 64px;
     width: 100%;
-    margin: auto;
+    margin: 0%;
     align-self: center;
     justify-content: center;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
     position: relative;
 }
 
@@ -262,10 +264,9 @@ h3{
     gap: 16px;
 }
 
-.features-bg{
-    position: absolute;
-    z-index: -2;
-    translate: -20% 3%;
-    width: 120%;
-    height: 1fr;
+.all-transaction{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding-bottom: 150px;
 }
